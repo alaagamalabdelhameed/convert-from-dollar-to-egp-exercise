@@ -1,5 +1,5 @@
 def currency(dollar):
-    egp = 30.6044 * dollar
+    egp =  dollar * 30.6044
     msg = ""
     if dollar > 1000:
         msg = "This is alot of money"
